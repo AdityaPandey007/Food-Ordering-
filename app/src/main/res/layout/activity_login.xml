@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="201dp"
+        android:text="LOG-IN "
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <EditText
+        android:id="@+id/editEmaiLogIn"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext"
+        android:hint="Email-ID"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView" />
+
+    <EditText
+        android:id="@+id/editPasswordLogIn"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/edittext"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="@+id/editEmaiLogIn"
+        app:layout_constraintStart_toStartOf="@+id/editEmaiLogIn"
+        app:layout_constraintTop_toBottomOf="@+id/editEmaiLogIn" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/logInbtn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/btnbg"
+        android:padding="10dp"
+        android:text="Sign-In"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/editPasswordLogIn"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editPasswordLogIn"
+        app:layout_constraintTop_toBottomOf="@+id/editPasswordLogIn" />
+
+    <TextView
+        android:id="@+id/registerTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/registerAccount"
+        android:textColor="@color/black"
+        android:textStyle="italic"
+        android:textSize="18sp"
+        android:layout_marginTop="5dp"
+        app:layout_constraintEnd_toEndOf="@+id/logInbtn"
+        app:layout_constraintStart_toStartOf="@+id/logInbtn"
+        app:layout_constraintTop_toBottomOf="@+id/logInbtn" />
+
+    <ImageView
+        android:id="@+id/googleSigIn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/google"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="40dp"
+        android:onClick="signIn"
+        app:layout_constraintStart_toStartOf="@+id/registerTxt"
+        app:layout_constraintTop_toBottomOf="@+id/registerTxt" />
+
+    <ImageView
+        android:id="@+id/facebookSignIn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/facebook"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="40dp"
+        app:layout_constraintEnd_toEndOf="@+id/registerTxt"
+        app:layout_constraintTop_toBottomOf="@+id/registerTxt" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

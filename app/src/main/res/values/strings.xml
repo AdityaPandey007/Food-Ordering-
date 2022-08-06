@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">FoodApp(Kotlin)</string>
+    <string name="description">A hamburger is a food, typically considered a sandwich, consisting of one or more cooked patties—usually ground meat, typically beef—placed inside a sliced bread roll or bun. The patty may be pan fried, grilled, smoked or flame broiled.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="registerAccount">Don\'t have an account?REGISTER</string>
+    <string name="logInAccount">Already Have An Account? LOG-IN</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="menu_home">Home</string>
+    <string name="category">Category</string>
+    <string name="profile">Profile</string>
+    <string name="offers">Offers</string>
+    <string name="new_products">New Products</string>
+    <string name="my_orders">Orders</string>
+    <string name="my_carts">My Cart</string>
+    <string name="default_web_client_Id">194188442570-5dgb7jem13sshsgtmppjrald3083i72j.apps.googleusercontent.com</string>
+
+    <string name="facebook_app_id">2252379388252558</string>
+    <string name="fb_login_protocol_scheme">fb2252379388252558</string>
+    <string name="logOut">LogOut</string>
+</resources>

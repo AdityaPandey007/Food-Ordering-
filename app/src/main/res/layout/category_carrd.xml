@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="100dp"
+    android:layout_height="120dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:backgroundTint="#ffc5ab"
+    app:cardElevation="8dp"
+    app:cardCornerRadius="10dp"
+    android:padding="8dp"
+    android:layout_margin="10dp">
+
+    <ImageView
+        android:id="@+id/catImage"
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:src="@drawable/foodapp1"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:id="@+id/catName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Burger"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold|italic"
+        android:layout_gravity="bottom|center"
+        android:layout_marginTop="10dp"/>
+
+</androidx.cardview.widget.CardView>

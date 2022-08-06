@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/FoodAppKotlin/app/src/main/res/layout/activity_home_page.xml" value="0.25416666666666665" />
+        <entry key="..\:/FoodAppKotlin/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/FoodAppKotlin/app/src/main/res/menu/navigation_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/The Founder/AndroidStudioProjects/FoodAppKotlin/app/src/main/res/layout/activity_home_page.xml" value="0.2542991141219385" />
+        <entry key="..\:/Users/The Founder/AndroidStudioProjects/FoodAppKotlin/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/The Founder/AndroidStudioProjects/FoodAppKotlin/app/src/main/res/menu/navigation_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/FoodAppKotlin/app/src/main/res/drawable/edtbg.xml" value="0.290625" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/FoodAppKotlin/app/src/main/res/drawable/ic_baseline_add_shopping_cart_24.xml" value="0.290625" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/FoodAppKotlin/app/src/main/res/drawable/ic_launcher_background.xml" value="0.290625" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/FoodAppKotlin/app/src/main/res/drawable/light_orange_back.xml" value="0.290625" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/FoodAppKotlin/app/src/main/res/drawable/orange_button_bg.xml" value="0.290625" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/FoodAppKotlin/app/src/main/res/layout/activity_cart.xml" value="0.264" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/FoodAppKotlin/app/src/main/res/layout/activity_home_page.xml" value="0.2" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/FoodAppKotlin/app/src/main/res/layout/activity_login.xml" value="0.17346014492753623" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/FoodAppKotlin/app/src/main/res/layout/activity_main.xml" value="0.21240942028985507" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/FoodAppKotlin/app/src/main/res/layout/activity_register.xml" value="0.17346014492753623" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/FoodAppKotlin/app/src/main/res/layout/activity_show_detail.xml" value="0.21965579710144928" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/FoodAppKotlin/app/src/main/res/layout/cart_elements.xml" value="0.264" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/FoodAppKotlin/app/src/main/res/layout/cat_detail.xml" value="0.2" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/FoodAppKotlin/app/src/main/res/layout/category_carrd.xml" value="0.6" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/FoodAppKotlin/app/src/main/res/layout/fragment_home.xml" value="0.17346014492753623" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/FoodAppKotlin/app/src/main/res/layout/fragment_profile_fragments.xml" value="0.2223731884057971" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/FoodAppKotlin/app/src/main/res/layout/popular_card.xml" value="0.264" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/FoodAppKotlin/app/src/main/res/menu/bottom_nav_menu.xml" value="0.27447916666666666" />
+        <entry key="..\:/Users/pc/AndroidStudioProjects/FoodAppKotlin/app/src/main/res/menu/navigation_menu.xml" value="0.27447916666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
